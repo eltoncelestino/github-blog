@@ -12,7 +12,12 @@ export const globalStyles = globalCss({
     color: "$text",
     fontFamily: "$default, sans-serif",
   },
+
+  input: {
+    fontFamily: "$default, sans-serif",
+  },
+
   "h1, h2, h3, h4, h5, h6": {
-    color: "$title"
+    color: "$title",
   }
 });

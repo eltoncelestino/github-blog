@@ -43,8 +43,8 @@ export const UserCardNameContainer = styled(
     justifyContent: "space-between",
     alignItems: "center",
     width: "100%",
-    // marginBottom: "8px",
-
+    marginBottom: "8px",
+    
     a: {
       display: "flex",
       alignItems: "center",
@@ -56,7 +56,7 @@ export const UserCardNameContainer = styled(
 
       svg: {
         marginLeft: "8px"
-      },
+      }
     }
   }
 )
